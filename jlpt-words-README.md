@@ -100,7 +100,7 @@ Frequency entries are sorted by combined frequency rank and assigned cumulativel
 - **Novel/media bias in fallback entries**: JPDB over-represents literary and media vocabulary. This only affects frequency-assigned entries, not Waller or audit entries.
 - **Daily-life underrepresentation**: Words common in everyday conversation but rare in fiction are partially mitigated by the N5 seed list.
 - **No grammar coverage**: JLPT tests grammar patterns as well as vocabulary. This list only covers words.
-- **Audit coverage**: Only extreme outliers (4+ level disagreement) have been audited so far. 2-3 level disagreements may contain additional misclassifications.
+- **Audit coverage**: All words with 2+ level disagreement between Waller and frequency have been audited (1,748 words total across three rounds). Single-level disagreements remain unaudited.
 
 ## Regenerating
 
